@@ -22,7 +22,7 @@
  '(elfeed-feeds (quote ("reddit.com/emacs.rss")) t)
  '(package-selected-packages
    (quote
-    (calf-org w3 elfeed flycheck elpy calfw-org calfw zenburn-theme magitesson magit helm))))
+    (muse wttrin calf-org w3 elfeed flycheck elpy calfw-org calfw zenburn-theme magitesson magit helm))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
