@@ -16,9 +16,10 @@
 (setq package-list
       '(helm
 	magit
-	calfw-org calfw
+	dracula-theme
 	wttrin
-	muse
+	elpy
+	flycheck
 	))
 
 

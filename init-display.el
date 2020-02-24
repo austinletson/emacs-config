@@ -7,8 +7,9 @@
 (tool-bar-mode -1)
 
 ;; Add theme
-(load-theme 'zenburn t)
+(load-theme 'dracula t)
 
 
 
 ;; Linum mode
+(global-linum-mode t)
