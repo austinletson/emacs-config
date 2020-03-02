@@ -9,20 +9,18 @@
 (load "~/.emacs.d/init-display")
 (load "~/.emacs.d/init-navigation")
 (load "~/.emacs.d/init-org")
-(load "~/.emacs.d/init-python")
+(load "~/.emacs.d/key-chord")
+(load "~/.emacs.d/init-evil")
 
 
-
-(setq initial-buffer-choice "~/school/schedual.org")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(elfeed-feeds (quote ("reddit.com/emacs.rss")) t)
  '(package-selected-packages
    (quote
-    (muse wttrin calf-org w3 elfeed flycheck elpy calfw-org calfw zenburn-theme magitesson magit helm))))
+    (magit zenburn-theme helm evil dracula-theme color-theme-sanityinc-tomorrow))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

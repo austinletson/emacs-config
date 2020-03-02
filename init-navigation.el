@@ -15,13 +15,3 @@
   "Open the init file."
   (interactive)
   (find-file user-init-file))
-
-(setq elfeed-feeds
-      '("https://reddit.com/r/emacs.rss"))
-
-(setq wttrin-default-cities '("Atlanta"))
-
-
-(eval-after-load "dired-aux"
-   '(add-to-list 'dired-compress-file-suffixes 
-                 '("\\.zip\\'" ".zip" "unzip")))
