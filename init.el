@@ -6,11 +6,12 @@
 (package-initialize)
 
 (load "~/.emacs.d/init-packages")
+(load "~/.emacs.d/key-chord")
+(load "~/.emacs.d/init-evil")
 (load "~/.emacs.d/init-display")
 (load "~/.emacs.d/init-navigation")
 (load "~/.emacs.d/init-org")
-(load "~/.emacs.d/key-chord")
-(load "~/.emacs.d/init-evil")
+
 
 
 (custom-set-variables
