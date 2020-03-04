@@ -5,13 +5,13 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
-(load "~/.emacs.d/init-packages")
+(load "~/.emacs.d/packages")
 (load "~/.emacs.d/key-chord")
-(load "~/.emacs.d/init-evil")
-(load "~/.emacs.d/init-display")
-(load "~/.emacs.d/init-navigation")
-(load "~/.emacs.d/init-org")
-
+(load "~/.emacs.d/evil")
+(load "~/.emacs.d/navigation")
+(load "~/.emacs.d/org")
+(load "~/.emacs.d/display")
+(load "~/.emacs.d/python")
 
 
 (custom-set-variables
@@ -21,7 +21,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (magit zenburn-theme helm evil dracula-theme color-theme-sanityinc-tomorrow))))
+    (elpy magit zenburn-theme helm evil dracula-theme color-theme-sanityinc-tomorrow))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
