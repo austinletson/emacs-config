@@ -21,7 +21,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (elpy magit zenburn-theme helm evil dracula-theme color-theme-sanityinc-tomorrow))))
+    (jedi wttrin magit helm flycheck evil elpy dracula-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

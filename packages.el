@@ -1,3 +1,4 @@
+
 (require 'package)
 
 ; add package archives
@@ -14,7 +15,10 @@
         dracula-theme 
 	evil
 	magit
-        elpy 
+	elpy
+	flycheck
+	jedi
+
 	))
 
 ; activate all the packages
