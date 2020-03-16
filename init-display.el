@@ -15,6 +15,3 @@
 ;; Linum mode
 (global-linum-mode t)
 
-(setq inhibit-splash-screen t)
-(switch-to-buffer (get-buffer-create "greeting"))
-(insert "Hey bb!! I love you!")
