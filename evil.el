@@ -7,7 +7,7 @@
 
 ;;Exit insert mode by pressing j and then j quickly
 (setq key-chord-two-keys-delay 0.5)
-(key-chord-define evil-insert-state-map "jj" 'evil-normal-state)
+(key-chord-define evil-insert-state-map "kj" 'evil-normal-state)
 (key-chord-mode 1)
 
 ;; Make evil-mode up/down operate in screen lines instead of logical lines
